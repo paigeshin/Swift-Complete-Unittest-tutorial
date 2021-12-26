@@ -1,0 +1,51 @@
+{
+  "configurations" : [
+    {
+      "id" : "A918C222-50E9-43B5-9496-336FA56ABAA2",
+      "name" : "Test Server 1 URL",
+      "options" : {
+        "environmentVariableEntries" : [
+          {
+            "key" : "signupUrl",
+            "value" : "http:\/\/appsdeveloperblog.com\/api\/v2\/signup-model"
+          }
+        ],
+        "targetForVariableExpansion" : {
+          "containerPath" : "container:PhotoApp.xcodeproj",
+          "identifier" : "6C09A941277671080007EE1F",
+          "name" : "PhotoAppTests"
+        },
+        "uiTestingScreenshotsLifetime" : "deleteOnSuccess"
+      }
+    },
+    {
+      "id" : "4799F0F0-4232-418F-959D-C72E219DFE04",
+      "name" : "Test Server 2 URL",
+      "options" : {
+        "targetForVariableExpansion" : {
+          "containerPath" : "container:PhotoApp.xcodeproj",
+          "identifier" : "6C09A941277671080007EE1F",
+          "name" : "PhotoAppTests"
+        }
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:PhotoApp.xcodeproj",
+      "identifier" : "6C09A92B277671080007EE1F",
+      "name" : "PhotoApp"
+    },
+    "uiTestingScreenshotsLifetime" : "keepNever"
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:PhotoApp.xcodeproj",
+        "identifier" : "6C09A941277671080007EE1F",
+        "name" : "PhotoAppTests"
+      }
+    }
+  ],
+  "version" : 1
+}
